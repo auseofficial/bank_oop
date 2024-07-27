@@ -52,12 +52,6 @@ acc1.deposit(1000)
 acc1.withdraw(500)
 print(acc1)  
 
-title = "1984"
-author = "George Orwell"
-year = 1949
-
-info = (f"Title: {title}, Author: {author}, Year: {year}")
-print(info)
 
 
 ##TASK_2_##
