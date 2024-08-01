@@ -39,7 +39,7 @@ class Item:
         return self.get_info()
 
 class Book(Item):
-   def __init__(self,title,author,year):
+   def __init__(self,title,author,year,publisher,isbn):
      super().__init__(title,author,year)
      self.publisher=publisher
      self.isbn=isbn
